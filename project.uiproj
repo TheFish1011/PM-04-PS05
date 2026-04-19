@@ -1,0 +1,6 @@
+{
+  "Name": "PM04-PS05",
+  "ProjectType": "Process",
+  "Description": "Municipal Complaint Automation Bot",
+  "MainFile": "Main.xaml"
+}
