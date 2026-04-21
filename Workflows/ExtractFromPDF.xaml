@@ -131,7 +131,7 @@
       <AssemblyReference>System.Linq.Queryable</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="ExtractFromPDF" sap:VirtualizedContainerService.HintSize="2282,3323" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="ExtractFromPDF" sap:VirtualizedContainerService.HintSize="2656,3323" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -311,7 +311,7 @@
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,166" sap2010:WorkflowViewState.IdRef="LogMessage_9" Message="[&quot;ID: &quot; + CurrentRow(&quot;Complaint_ID&quot;).ToString +&#xD;&#xA;&quot; | Name: &quot; + CurrentRow(&quot;Citizen_Name&quot;).ToString +&#xD;&#xA;&quot; | Date: &quot; + CurrentRow(&quot;Date_Received&quot;).ToString +&#xD;&#xA;&quot; | Text: &quot; + CurrentRow(&quot;Complaint_Text&quot;).ToString]" />
+              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,166" sap2010:WorkflowViewState.IdRef="LogMessage_9" Message="[&quot;ID: &quot; + CurrentRow(&quot;Complaint_ID&quot;).ToString +&#xA;&quot; | Name: &quot; + CurrentRow(&quot;Citizen_Name&quot;).ToString +&#xA;&quot; | Date: &quot; + CurrentRow(&quot;Date_Received&quot;).ToString +&#xA;&quot; | Text: &quot; + CurrentRow(&quot;Complaint_Text&quot;).ToString]" />
             </Sequence>
           </ActivityAction>
         </ui:ForEachRow.Body>

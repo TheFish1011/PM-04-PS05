@@ -94,7 +94,7 @@
           "FieldId": "MunicipalComplaints.NoCategory.ComplaintForm.Date_Received",
           "FieldName": "Date_Received",
           "IsMultiValue": false,
-          "Type": "Date",
+          "Type": "Text",
           "DeriveFieldsFormat": "",
           "Components": [],
           "SetValues": [],
@@ -117,7 +117,20 @@
           "DataSource": null
         }
       ],
-      "Metadata": []
+      "Metadata": [
+        {
+          "Key": "OCRConfidenceThreshold",
+          "Value": "0.9"
+        },
+        {
+          "Key": "DateDisplayFormat",
+          "Value": "yyyy-MM-dd"
+        },
+        {
+          "Key": "NumberDisplayFormat",
+          "Value": "{\"DecimalSeparator\":\".\",\"ThousandsSeparator\":\"\"}"
+        }
+      ]
     }
   ],
   "Groups": [
